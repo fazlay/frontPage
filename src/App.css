@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+body {
+  background-color: white;
+  margin: 5px;
+}
+.logo{
+    display: block;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: auto;
+  width: 80%;
+  background-color: wheat;
+}
+.body__left {
+  float: left;
+  width: 30%;
+}
+.trophy {
+    padding-top: 40px;
+  height: 600px;
+}
+.price-giving {
+  height: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body__right {
+  float: left;
+  width: 70%;
+  margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.company-title{
+    margin: 10px;
+    font-weight: 600;
+}
+.company-products{
+    margin: 20px;
+    border-bottom: red solid 3px;
+}
+.products{
+  width: 100%;
+}
+.products-name{
+    margin-bottom: 20px;
+display: block;
+text-align: center
+}
+.title{
+display: block;
+text-align: center
+
 }
 
-.App-link {
-  color: #61dafb;
+.company-address{
+    margin: 9px;
+    
+}
+.address {
+    font-size: 400;
+    display: block;
+text-align: center
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.address-row-01 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 550;
 }
+.address-row-02{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.address-row-01 span:not(:first-child){
+    border-left: 2px solid red;
+}
+
+.address-row-02 span:not(:first-child){
+    border-left: 2px solid red;
+}
+
+p{
+    padding:5px 0;
+    margin:0;
+}
+
+span{
+    padding:0 5px;
+}
+.footer{
+    background-color: red;
+
+    height: 50px;
+}
+
+.icon{
+    margin-top: 10px;
+    height: 30px;
+}
+
